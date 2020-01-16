@@ -3,6 +3,6 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>com.unisys.jss.BBEdit</string>
+	<string>com.uni.jss.UBBEdit</string>
 	<key>Input</key>
 	<dict>
