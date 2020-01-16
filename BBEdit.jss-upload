@@ -3,6 +3,72 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>com.uni.jss.UBBEdit</string>
+	<string>com.unisys.jss.BBEdit</string>
 	<key>Input</key>
 	<dict>
+		<key>CATEGORY</key>
+		<string>Tools</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate.xml</string>
+		<key>NAME</key>
+		<string>BBEdit</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Tools</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>BBEdit is the leading professional HTML and text editor for the Mac.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>BBEdit.png</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.BBEdit</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>BarebonesURLProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>a46693f4b0f0176bc1ee07496c223cfca41b1348</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Barebones/BarebonesURLProvider.py</string>
+				<key>sha256_hash</key>
+				<string>9d057626a1fa54ab487d0e7372fb97366cbad5c64b17a12bdd730f60563527f6</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.download.bbedit</key>
+			<dict>
+				<key>git_hash</key>
+				<string>55e47128864841e568cf20ccd2b852fea48faa50</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Barebones/BBEdit.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>6d8e8c3699f23f9c0511f6e2d6a14c7400b890a729f688014adb287d3666eb03</string>
+			</dict>
+			<key>com.github.autopkg.pkg.BBEdit</key>
+			<dict>
+				<key>git_hash</key>
+				<string>6920d9ea839b56e5b6f4d2764f1a100b6398c895</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Barebones/BBEdit.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>6811ef469f31b297534dbbdd75e48c58bd68d64fa63a00d41a70c0a2db60cc8b</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.BBEdit</key>
+			<dict>
+				<key>git_hash</key>
+				<string>1d494dc28101da3b605f94db6827b6ab8970fe77</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/BBEdit/BBEdit.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>5ec6acd586ca464d15bbe606c6b8540a9e20e28e3ed2ec4f6e5f45a7fbc24775</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
